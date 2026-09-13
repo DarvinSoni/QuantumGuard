@@ -1,0 +1,38 @@
+{
+  "keypair": {
+    "N": 143,
+    "e": 7,
+    "bit_length": 8
+  },
+  "intercepted": {
+    "ciphertext": 81
+  },
+  "attack_success": true,
+  "recovered_factors": [
+    11,
+    13
+  ],
+  "order_finding_attempts": [
+    {
+      "attempt": 1,
+      "a": 8,
+      "estimated_order": 140,
+      "top_measurements": [
+        [
+          "00000000",
+          219
+        ],
+        [
+          "10000000",
+          212
+        ],
+        [
+          "00001101",
+          209
+        ]
+      ]
+    }
+  ],
+  "recovered_d": 103,
+  "decryption_matches_original": true
+}
